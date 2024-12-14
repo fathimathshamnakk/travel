@@ -1,0 +1,70 @@
+  
+*{
+  font-family: "Lato", sans-serif;
+  
+}
+#gateway{
+    font-family: "Birthstone", cursive;
+}
+.fa-solid{
+    color:grey;
+    margin-left:5px;
+}
+
+  .navbar-custom {
+    background-color: #2c3e50;
+    /* Navbar background color */
+  }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: white;
+    /* Navbar link and brand color */
+  }
+
+  .navbar-custom .nav-link:hover {
+    background-color: #34495e;
+    /* Hover effect for links */
+    color: #ecf0f1;
+    /* Link color on hover */
+  }
+
+  .header {
+    background: url('https://images.unsplash.com/photo-1500835556837-99ac94a94552?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+
+  .header p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .header .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .social-icon {
+    transition: transform 0.3s, color 0.3s ease-in-out;
+  }
+
+  .social-icon:hover {
+    transform: scale(1.2);
+    /* Enlarges the icon */
+    color: #130251 !important;
+    /* Changes the color to blue (use !important to override default color) */
+  }
+
+
